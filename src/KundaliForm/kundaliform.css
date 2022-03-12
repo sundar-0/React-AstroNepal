@@ -1,0 +1,59 @@
+
+.kundaliformDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    
+}
+#kundaliform{
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+}
+#kundaliform>div>h1{
+  width: 50%;
+  text-align: center;
+  text-transform: capitalize;
+  color:#ddd;
+  background-color: coral;
+  border-radius: 10px;
+}
+#kundaliform > div > label{
+  color: black;
+  font-size: 20px;
+  line-height: 40px;
+}
+#kundaliform > div > input{
+ width: 50%;
+ height: 40px;
+ font-size: 20px;
+ color:coral;
+ border-radius: 10px;
+}
+#kundaliform>div>button{
+  margin-top: 20px;
+  background-color: chocolate;
+  width: 50%;
+  height: 50px;
+  top: 40px;
+}
+
+.location {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+  
+  .location-item {
+    border: 1px solid #ddd; /* Add a thin border to each list item */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Add a grey background color */
+    padding: 12px; /* Add some padding */
+    cursor: pointer;
+  }
+  .location-item:hover{
+      background-color: yellow;
+  }
