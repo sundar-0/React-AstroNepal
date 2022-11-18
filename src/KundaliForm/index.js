@@ -35,8 +35,8 @@ export default function KundaliForm() {
   const generateKundali=async(e)=>{
     e.preventDefault();
 
-      var userId = '619020';
-      var apiKey = 'fb64a8b4e51db908c9dba69eb7ecd3fd';
+      var userId = '621235';
+      var apiKey = '1fffb2d17cfec746ed40ca08d6500cee';
 
       let dob=document.getElementById('dob').value
       let birthtime=document.getElementById('birthtime').value
